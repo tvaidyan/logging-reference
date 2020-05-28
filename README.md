@@ -8,6 +8,6 @@ There are two .NET Core projects in this solution:
 /api/hello-world/generate-error/[abc123] - causes an uncaught exception which is then handled by the global exception filter.
 /api/hello-world/generate-log/[abc123] - generates a set of log entries.
 
-Replace "abc123" with any string token that you like.
+Replace "abc123" with any string token that you like and it will appear in the associated log entries.
 
 2. LoggingReference.Worker: A .NET Core Worker Service application to demonstrate how to integrate Serilog and ApplicationInsights in such a project type.
